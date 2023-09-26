@@ -1,0 +1,13 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NavBar{
+    display: flex;
+    gap: 35px;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+}

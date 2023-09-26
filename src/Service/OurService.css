@@ -1,0 +1,35 @@
+.cardImageSize{
+    width: 180px;
+}
+
+.parentCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+
+.cardService {
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 240px;
+}
+.cardService:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.containerService{
+    
+    text-align: center;
+
+}
+
+.parentService{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    gap: 12px;
+}

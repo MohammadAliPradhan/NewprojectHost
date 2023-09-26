@@ -1,0 +1,33 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 3 columns */
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff9f9;
+    border: 1px solid #1c1313;
+    padding: 10px;
+    height: 300px;
+    border-radius: 50px;
+  }
+  
+  .product-img {
+    position: relative;
+    left: 34px;
+    max-width: 140px;
+    max-height: 75%;
+    object-fit: contain;
+  }
+  
+ 
+  .paraSomething{
+    position: relative;
+    top: 128px;
+    right: 72px;
+  }
+  

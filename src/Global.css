@@ -1,0 +1,71 @@
+.center{
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+.secSpace{
+    text-align: center;
+    margin-left: 70px;
+    list-style: none;
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.whatall{
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.support{
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+}
+
+.buttonA{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+
+.card {
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition:0.3s;
+    width: 240px;
+}
+
+.card:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    text-align: center;
+    
+}
+
+.image-width{
+    
+    width: 180px;   
+}
+
+.parentCard{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    gap: 12px;
+
+}
+
+.cardsImg{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+   padding: 20px;
+}
